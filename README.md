@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="WEB/assets/logo_dark.png" alt="Logo" width="190" height="100">
+    <img src="Elearn\Assets\Logo.png" alt="Logo" width="190" height="100">
   </a>
 
 <h3 align="center">E-Learning Platform</h3>

@@ -1,0 +1,96 @@
+﻿/*LOGIN CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Inter&family=Lato&family=Open+Sans&family=Philosopher&family=Rajdhani:wght@500&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&family=Source+Code+Pro&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.wrapper {
+    width: 900px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    border-radius: 25px !important;
+}
+._row {
+    display: flex;
+}
+.logo_title {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top:8px;
+    font-size:14px;
+}
+.input {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid #9D9C9C;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 8px;
+}
+.form_data > form > .input:focus {
+    border: 2px solid #6b1fdc;
+}
+.form_data {
+    padding: 30px 30px 70px;
+    width: 65%;
+}
+.inner_wrapper {
+    display: flex;
+}
+.logo_title {
+    background: #8B3DFF;
+    /* background:radial-gradient(100.99% 100.73% at 0% 0%,rgba(0,196,204,0.725916) 0%,#00c4cc 0.01%,rgba(0,196,204,0) 100%),radial-gradient(68.47% 129.02% at 22.82% 97.71%,#6420ff 0%,rgba(100,32,255,0) 100%),radial-gradient(106.1% 249.18% at 0% 0%,#00c4cc 0%,rgba(0,196,204,0) 100%),radial-gradient(64.14% 115.13% at 5.49% 50%,#6420ff 0%,rgba(100,32,255,0) 100%),#7d2ae7; */
+    border-top-left-radius: 25px !important;
+    border-bottom-left-radius: 25px;
+    padding: 25px;
+}
+.form_data_title > h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    color: #8B3DFF;
+}
+#msgBox {
+    height: 60px !important;
+}
+#msgBox1 {
+    height: 0px !important;
+}
+#submit_login {
+    padding: 8px 45px;
+    text-align: center;
+    display: block;
+    margin: 50px auto 15px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: #8B3DFF;
+    border: 2px solid #8B3DFF;
+    color: white;
+}
+#submit_login:hover {
+    border: 2px solid #6b1fdc;
+    background-color: #6b1fdc;
+}
+.form_data > form > a {
+    display: block;
+    text-align: center;
+}
+#msgBox > .alert {
+    opacity: 0;
+}

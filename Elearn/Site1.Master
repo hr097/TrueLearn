@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Elearn.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>TrueLearn ~ Right Place to learn</title>
+	<link rel="stylesheet" href="CSS/Admin.css"/>
+	 <script src="Assets/font_awsome.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="Assets/bootstrap.min.css">
+	
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+     </asp:ContentPlaceHolder>
+   
+	<script>
+        let listA = document.querySelectorAll(
+            ".wrapper .sidebar__inner .siderbar_menu li a"
+        );
+        for (let i = 0; i < listA.length; i++) {
+            listA[i].onclick = function () {
+                let j = 0;
+                while (j < listA.length) {
+                    listA[j++].className = " ";
+                }
+                listA[i].className = "active";
+            };
+        }
+    </script>
+	<script src="Assets/bootstrap.min.js"></script>
+	<script src="Assets/jquery.min.js"></script>
+</body>
+</html>

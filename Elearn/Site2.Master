@@ -1,0 +1,107 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="Elearn.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>TrueLearn ~ Right Place to learn</title>
+    <script src="Assets/font_awsome.js" crossorigin="anonymous"></script>
+	
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="Assets/bootstrap.min.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script>
+        function hello(amount) {
+            let cart = document.getElementById('cart_add');
+            cart.setAttribute('data-totalitems', amount );
+        }
+       
+    </script>
+    <style type="text/css">
+        .auto-style1 {
+            left: 0px;
+            top: 0px;
+        }
+        body{
+            background-color:white;
+        }
+    </style>
+</head>
+<body>
+   
+    <nav class="nav_bar">
+  <div class="logo">
+    <img src="Assets/WLogo.png" alt="LOGO">
+  </div>
+  <div class="push-left">
+    <button id="menu-toggler" data-class="menu-active" class="hamburger">
+      <span class="hamburger-line hamburger-line-top"></span>
+      <span class="hamburger-line hamburger-line-middle"></span>
+      <span class="hamburger-line hamburger-line-bottom"></span>
+    </button>
+    <!--  Menu compatible with wp_nav_menu  -->
+    <ul id="primary-menu" class="menu nav-menu">
+    <li class="menu-item current-menu-item">
+        <a class="nav__link" href="Home.aspx">  Home</a>
+      </li>
+      <li class="menu-item current-menu-item">
+        <a class="nav__link" href="Home.aspx">Product</a>
+      </li>
+      <li class="menu-item current-menu-item">
+        <a class="nav__link" href="Home.aspx"> Contect us</a>
+      </li>
+      <li class="menu-item current-menu-item">
+        <a class="nav__link" href="Home.aspx">  About us</a>
+      </li>
+      <li class="menu-item current-menu-item" id="cart_add_wrapper">
+        <a class="auto-style1" id="cart_add" data-totalitems = "0" href="OwnEnrolleds.aspx"><i class="fa-solid fa-cart-shopping"></i> </a>
+      </li>
+      <li class="menu-item menu_iteam_singin">
+        <a class="nav__link " id="nav_singin" href="Login.aspx">Log out</a>     
+          
+      
+      
+      
+      </li>
+    </ul>
+  </div>
+</nav>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    <section class="contact-area" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6"></div>
+               
+                <div class="col-lg-6">
+                    <div class="contact-content text-center">
+                        <a href="#"><img src="Assets/WLogo.png" alt="logo"></a>
+                        <h6>1180, Avadh victory, Sarthana jakatnaka, surat-395006</h6>
+                        <h6>+91 8849562356<span>|</span>+91 9999485963</h6>
+                        <div class="contact-social">
+                            <ul>
+                                <li><a class="hover-target" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a class="hover-target" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a class="hover-target" href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6"></div>
+            </div>
+        </div>
+    </section>
+    <!-- =============== 1.9 Contact Area End ====================-->
+    <!-- =============== 1.9 Footer Area Start ====================-->
+    <footer>
+        <p>Copyright &copy; 2019 TrueLearn All Rights Reserved.</p>
+    </footer>     
+   
+    <script src="Assets/bootstrap.min.js"></script>
+	<script src="Assets/jquery.min.js"></script>
+</body>
+</html>
