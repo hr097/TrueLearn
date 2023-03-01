@@ -21,6 +21,12 @@ True Learn is such an amzaing platform where Thousands of students from schools,
 <br>
 <hr>
 <b>Hosting server : &nbsp; Somee.com [IIS Server]</b>
+<hr>
+<br>
+<center><strong style='margin:auto;'>Developed & Deployed by<em>@Shubham Khunt<em> and  <em> Harshil Ramani</em> </strong></center>
+<br>
+<br>
+<hr>
 
 
 
