@@ -17,7 +17,7 @@
 <br>
 <br>
 
-True Learn is such an amzaing platform where Thousands of students from schools,colleges and universities are being able to obtain and learn diffrent study curriculam and extra demadeble resources with wide ranges of courses to choose fro,. It helps students to gain real world industry related knowledge and acquire right skillset for their better career. Its our mantra "Learn at right place, Earn at any place".
+True Learn is such an amzaing platform where Thousands of students from schools,colleges and universities are being able to obtain and learn diffrent study curriculam and extra demadeble resources with wide ranges of courses to choose for self. It helps students to gain real world industry related knowledge and acquire right skillset for their better career. Its our mantra "Learn at right place, Earn at any place".
 <br>
 <hr>
 <b>Hosting server : &nbsp; Somee.com [IIS Server]</b>
